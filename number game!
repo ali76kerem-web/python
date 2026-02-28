@@ -1,0 +1,17 @@
+import random
+
+tutulan_sayi = random.randint(1, 100)
+
+while True:
+    sayi = int(input("1 ile 100 arasında bir tahmin yap: ")) 
+   
+    if sayi < tutulan_sayi:
+        print("daha büyük biri sayı gir")
+       
+    elif sayi > tutulan_sayi:
+        print ("daha küçük bir sayı gir")
+
+    else:
+        print ("helal lan bildin")
+        
+        
